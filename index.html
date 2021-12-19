@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+    <title>Finvault</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="side-menu">
+            <div class="logo">
+                <img src="./img/Logo.svg" alt="">
+            </div>
+            <nav>
+                <button class="dropdown-btn">
+                    <img class="home-icon" src="./img/Icon.svg" alt="">
+                    <p>Home</p>
+                    <img class="drop" src="./img/Vector.svg" alt="">
+                </button>
+                <div class="dropdown-container">
+                    <a href="#" class="active">Transactions</a>
+                    <a href="#" class="active">Deposit into Finvault</a>
+                    <a href="#" class="active">Withdraw Funds</a>
+                </div>
+            </nav>
+            <div class="get-started">
+                <button>
+                    <img src="./img/check.svg" alt="">
+                    <p>Get Started: Level 1</p>
+                    <div class="not-count">3</div>
+                </button>
+            </div>
+            <div class="pop-up hidden">
+                <div class="nft-head-grp">
+                    <div class="head">
+                        <p>Your quick start guide</p>
+                        <img src="./img/Vector-drop.svg" alt="">
+                    </div>
+                    <div class="sub-header">
+                        <div class="level">LEVEL 1</div>
+                        <div class="percent">50% completed</div>
+                    </div>
+                    <div class="nft-con">
+                        <img src="./img/NFT Icon.svg" alt="">
+                        <div class="text">Complete 2 levels and recieve your free NFT </div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <div class="checklist-item">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./img/Success.svg" alt="">
+                                <div class="checklist">
+                                    <div class="main done">Open your account</div>
+                                    <div class="title">You have successfully opened your account</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/ID.svg" alt="">
+                                <div class="checklist">
+                                    <div class="main">Verify your identity</div>
+                                    <div class="title">Unlock features with your passport </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/Mobile.svg" alt="">
+                                <div class="checklist">
+                                    <div class="main">Verify your phone number</div>
+                                    <div class="title">Secure your account using your phone number</div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./img/Bank.svg" alt="">
+                                <div class="checklist">
+                                    <div class="main">Connect your bank account</div>
+                                    <div class="title">Connect any local bank to your Finvault wallet</div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <header>
+            <div class="dashboard-text">
+                <div class="overview">OVERVIEW</div>
+                <div class="dashboard">Dashboard</div>
+            </div>
+            <div class="cards">
+                <div class="card-1">
+                    <div class="currency-amt-grp">
+                        <div class="cur-logo">
+                            <img src="./img/$.svg" alt="">
+                        </div>
+                        <div class="cur-amt">
+                            <div class="cur">
+                                USDC
+                            </div>
+                            <div class="amt">
+                                12,200.50
+                            </div>
+                        </div>
+                    </div>
+                    <div class="send-conv-grp">
+                        <button class="send">
+                            Send
+                        </button>
+                        <button class="receive">
+                            Convert
+                        </button>
+                    </div>
+                </div>
+                <div class="card-2">
+                    <div class="currency-amt-grp">
+                        <div class="cur-logo">
+                            <img src="./img/AED.svg" alt="">
+                        </div>
+                        <div class="cur-amt">
+                            <div class="cur">
+                                UAE DIRHAM
+                            </div>
+                            <div class="amt">
+                                12,200.50
+                            </div>
+                        </div>
+                    </div>
+                    <div class="send-conv-grp">
+                        <button class="send">
+                            Send
+                        </button>
+                        <button class="receive">
+                            Convert
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="transactions">
+                <table>
+                    <tr class="tab-header">
+                        <th>FROM</th>
+                        <th>TO</th>
+                        <th>CURRENCY</th>
+                        <th>100.00</th>
+                        <th>ACTION</th>
+                    </tr>
+                    <tr>
+                        <td>Finvault</td>
+                        <td>My Wallet</td>
+                        <td>USD Coin (PoS)</td>
+                        <td>367.50</td>
+                        <td class="received">
+                            <p>Recieved</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Finvault</td>
+                        <td>My Wallet</td>
+                        <td>fAED Stablecoin</td>
+                        <td>100.00</td>
+                        <td class="sent">
+                            <p>Sent</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </header>
+    </div>
+</body>
+
+</html>
